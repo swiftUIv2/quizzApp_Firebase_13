@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>669295731926-l9p4fqei6tjmpcdue5djef4es0oudttu.apps.googleusercontent.com</string>
+	<string>644802325682-hrqhqgn0sqfnbof2ulcg1tijikit2abe.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.669295731926-l9p4fqei6tjmpcdue5djef4es0oudttu</string>
+	<string>com.googleusercontent.apps.644802325682-hrqhqgn0sqfnbof2ulcg1tijikit2abe</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBPgB787MiBsbroIOSWrbiSrYgP2lFFLFM</string>
+	<string>AIzaSyDAr4ymY1uHTBxAw52VHl3nPZHWoywqF_s</string>
 	<key>GCM_SENDER_ID</key>
-	<string>669295731926</string>
+	<string>644802325682</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.emm.quizzApp-Firebase-13</string>
 	<key>PROJECT_ID</key>
-	<string>quizzapp23</string>
+	<string>fir-quizzv1</string>
 	<key>STORAGE_BUCKET</key>
-	<string>quizzapp23.appspot.com</string>
+	<string>fir-quizzv1.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:669295731926:ios:62b3ac83d3019a15f39577</string>
+	<string>1:644802325682:ios:fbdf5733d8caef2907adab</string>
 </dict>
 </plist>

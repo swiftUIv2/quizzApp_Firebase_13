@@ -14,9 +14,10 @@
 		B509BC1F25B5A9E900D16452 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B509BC1E25B5A9E900D16452 /* Preview Assets.xcassets */; };
 		B509BC2A25B5AB7200D16452 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509BC2925B5AB7200D16452 /* Home.swift */; };
 		B52A222925B5E1E20045743F /* QA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A222825B5E1E20045743F /* QA.swift */; };
-		B52A223E25B5F7C10045743F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B52A223D25B5F7C10045743F /* GoogleService-Info.plist */; };
 		B52A224225B5F81F0045743F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A224125B5F81F0045743F /* Question.swift */; };
 		B52A224625B722B00045743F /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52A224525B722B00045743F /* QuestionViewModel.swift */; };
+		B59FD92625B84C1100B4D3BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B59FD92525B84C1100B4D3BB /* GoogleService-Info.plist */; };
+		B59FD92B25B84E5900B4D3BB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FD92A25B84E5900B4D3BB /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +31,10 @@
 		B509BC2025B5A9E900D16452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B509BC2925B5AB7200D16452 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B52A222825B5E1E20045743F /* QA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QA.swift; sourceTree = "<group>"; };
-		B52A223D25B5F7C10045743F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B52A224125B5F81F0045743F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		B52A224525B722B00045743F /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		B59FD92525B84C1100B4D3BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B59FD92A25B84E5900B4D3BB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		F2F0A76F27A760BEF4D7A06A /* Pods-quizzApp_Firebase_13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quizzApp_Firebase_13.debug.xcconfig"; path = "Target Support Files/Pods-quizzApp_Firebase_13/Pods-quizzApp_Firebase_13.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				B52A224425B721E20045743F /* ViewModel */,
-				B52A223D25B5F7C10045743F /* GoogleService-Info.plist */,
 				B509BC2825B5AB6200D16452 /* Model */,
 				B509BC2725B5AB4C00D16452 /* View */,
 				B509BC1725B5A9E900D16452 /* quizzApp_Firebase_13App.swift */,
@@ -103,6 +104,7 @@
 			children = (
 				B509BC2925B5AB7200D16452 /* Home.swift */,
 				B52A222825B5E1E20045743F /* QA.swift */,
+				B59FD92A25B84E5900B4D3BB /* QuestionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				B52A224525B722B00045743F /* QuestionViewModel.swift */,
+				B59FD92525B84C1100B4D3BB /* GoogleService-Info.plist */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -192,7 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B509BC1F25B5A9E900D16452 /* Preview Assets.xcassets in Resources */,
-				B52A223E25B5F7C10045743F /* GoogleService-Info.plist in Resources */,
+				B59FD92625B84C1100B4D3BB /* GoogleService-Info.plist in Resources */,
 				B509BC1C25B5A9E900D16452 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +252,7 @@
 				B52A224225B5F81F0045743F /* Question.swift in Sources */,
 				B509BC1A25B5A9E900D16452 /* ContentView.swift in Sources */,
 				B52A222925B5E1E20045743F /* QA.swift in Sources */,
+				B59FD92B25B84E5900B4D3BB /* QuestionView.swift in Sources */,
 				B509BC2A25B5AB7200D16452 /* Home.swift in Sources */,
 				B52A224625B722B00045743F /* QuestionViewModel.swift in Sources */,
 				B509BC1825B5A9E900D16452 /* quizzApp_Firebase_13App.swift in Sources */,
