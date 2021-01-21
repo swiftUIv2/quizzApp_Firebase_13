@@ -64,7 +64,7 @@ struct QA: View {
                             
                         }, label: {
                             Text("Go to home")
-                                .fontWeight(.heavy)
+                                .fontWeight(.bold)
                                 .foregroundColor(.white)
                                 .padding(.vertical)
                                 .frame(width: UIScreen.main.bounds.width - 150)
